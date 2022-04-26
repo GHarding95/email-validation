@@ -24,4 +24,18 @@ function validation(){
         text.innerHTML = "";
         text.style.color = "#00ff00";
     }
-}
+
+};
+
+
+// Console input to remove banned characters in an Array without Regex
+
+
+var emails = ["test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"];
+var bannedChar = ['+'];
+
+emails.forEach((a, e) => {
+    emails[e] = a.replace(bannedChar, '');
+});
+
+console.log(emails);

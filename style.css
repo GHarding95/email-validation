@@ -22,6 +22,10 @@ h3{
     margin-bottom: 5px;
 }
 
+.tc{
+    text-align: center;
+}
+
 #form{
     position: relative;
 }
