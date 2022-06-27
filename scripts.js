@@ -30,12 +30,31 @@ function validation(){
 
 // Console input to remove banned characters in an Array without Regex
 
+// var emails = ["test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"];
+// var bannedChar = ['+'];
 
-var emails = ["test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"];
-var bannedChar = ['+'];
+// emails.forEach((a, e) => {
+//     emails[e] = a.replace(bannedChar, '');
+// });
 
-emails.forEach((a, e) => {
-    emails[e] = a.replace(bannedChar, '');
-});
+// console.log(emails);
 
-console.log(emails);
+//var emails = ["test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"];
+
+// var str = "+sample@email.com";
+// var res = str.split("@");
+// console.log(res[0].replace("+", "")); //finds first instance of "+" and replaces with "" - returns sample
+//console.log(res[1]); // returns email.com
+
+// var emails = ["test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"];
+// var arr = [];
+
+// for(i = emails; i < emails.length; i++){
+//     var obj = {
+        
+//     };
+
+//     arr.push(obj);
+// }
+
+// console.log(obj);
